@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* SECTION 1 */
+#section-1 .col-12 {
+    background-color: #013243;
+}
+#section-1 h1{
+    color: #bbddff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#section-1 p{
+    color: #85bed2;
+    font-size: 1rem;
+}
+#section-1 .form h2{
+    font-size: 3rem;
+}
+#section-1 .form .form-label{
+    font-weight: bold;
+}
+#section-1 .form .form-control{
+    padding: 15px;
+    margin-bottom: 30px;
+}
+#section-1 .form .form-check-label a{
+    color: #013243;
+    font-weight: bold;
+}
+#section-1 .form .btn {
+    background-color: #013243;
+}
+#section-1 .form .btn:hover {
+    background-color: #024055;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-image: url('../img/Background.png');
+    }
+}
+@media (min-width: 768px) {
+    #section-1 .row {
+        background-color: #f8f9fa;
+    }
+}
